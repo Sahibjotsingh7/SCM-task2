@@ -40,6 +40,9 @@ def check_winner():
     for row in range(3):
         if buttons[row][0]['text'] == buttons[row][1]['text'] == buttons[row][2]['text'] != "":
             buttons[row][0].config(bg="green")
+            
+            
+            
             buttons[row][1].config(bg="green")
             buttons[row][2].config(bg="green")
             return True
